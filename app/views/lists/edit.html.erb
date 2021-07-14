@@ -1,0 +1,11 @@
+<h1>Editar Item</h1>
+<br>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <%= render 'form', list: @list %>  
+  </div>
+</div>
+
+<br/><br/>
+<% link_to 'Mostrar', @list %>
+<%= link_to 'Voltar', lists_path, class: 'btn btn-outline-dark btn-sm' %>
